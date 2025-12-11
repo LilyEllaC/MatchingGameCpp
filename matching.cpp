@@ -424,6 +424,9 @@ int main(){
         cout<<"\n\nDo you want to play again? (y/n) \n";
         cin>>playAgain;
     } while (tolower(playAgain[0])=='y');
+    //ending
+
+    cout<<"Have a good day!";
     cout<<"\n\n\n";
     return 0;
 }
