@@ -158,11 +158,20 @@ void board(vector <string> cards, int position1, int position2, vector <int> &po
         //seeeing if it should be shown
         if (isIn(positionsMatched, i)){
             printf("\033[0;92m%2s",cards[i].c_str());
+            //stopping blueberries from looking stupid
+            if (cards[i]=="🫐"){
+                cout<<" ";
+            }
         } else if (i==position1||i==position2){
             printf("\033[0;97m%2s",cards[i].c_str());
+            //stopping blueberries from looking stupid
+            if (cards[i]=="🫐"){
+                cout<<" ";
+            }
         } else {
             printf("%2i", i+1);
         }
+        
         cout<<"\033[0;95m | ";
 
         //getting it to go down a line sometimes
