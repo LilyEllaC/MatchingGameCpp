@@ -400,7 +400,7 @@ int main(){
             cout<<"\nPlayer 1 won!";
         } else if (numPlayers==2&&player1Points!=player2Points){
             cout<<"\nPlayer 2 won!";
-        } else if (player1Points!=player2Points){
+        } else if (numPlayers==2&&player1Points==player2Points){
             cout<<"It's a tie!";
         } else {
             cout<<"\nThe computer won. With "<<computerPoints<<" matches.";

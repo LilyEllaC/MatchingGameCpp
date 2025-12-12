@@ -8,12 +8,12 @@ A game where you flip over cards and try to find matches
 
 
 ## Installation
-*   To play you must have a Linux to download and run the pre-compiled executable. 
-*   A terminal or command prompt application is required as well/
+*   To play you must have a Linux distribution to download and run the pre-compiled executable, or run and build the source code directly. 
+*   A terminal or command prompt application is required as well
 
 ## How to download and run
 
-1. *Download* Get the executable from the itch.io page (LINK HERE)
+1. *Download* Get the executable from the itch.io page (https://lilyec.itch.io/memory-matching)
 2. *Navigate* Open the terminal and go to the directory you want to open it in
 3. *Execute* Run the game with this command
     ```bash
