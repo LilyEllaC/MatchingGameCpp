@@ -17,7 +17,7 @@ A game where you flip over cards and try to find matches
 2. *Navigate* Open the terminal and go to the directory you want to open it in
 3. *Execute* Run the game with this command
     ```bash
-    .\matching
+    ./matching
     ```
 
 ## How to play
